@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is to help find an error when using the mobility gem, it's the minimum possible example I've found at the moment.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can see the failing query in the task on [lib/tasks/bad_query.rake](lib/tasks/bad_query.rake), you can either run the task itself to see the result or just run the query in the rails console.
